@@ -1,0 +1,49 @@
+body {
+  background: #ece5e5;
+}
+
+header {
+  background-color: aqua;
+  padding: 15px;
+  text-align: center;
+  border: brown;
+  border-style: ridge;
+  border-width: 3px;
+}
+
+header h1 {
+  font-size: 28pt;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+main {
+  background-color: aqua;
+  border: brown;
+  border-style: ridge;
+  border-width: 3px;
+  margin: 25px;
+  padding: 20px;
+}
+
+main p {
+  font-size:18pt;
+}
+
+footer {
+  background-color: aqua;
+  text-align: center;
+  border: brown;
+  border-width: 3px;
+  border-style: ridge;
+  font-size: 16pt;
+  padding: 10px;
+}
