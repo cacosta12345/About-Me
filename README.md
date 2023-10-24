@@ -2,18 +2,15 @@
 
 ## About Me
 
-This is the about me project, 1st day. Adding some info about me, and 4 questions
+This is the about me project, 1st day. Adding some info about me, and 5 questions
 
 ### Author: Christopher Acosta
 
 ### Links and Resources
 
-* [submission PR](http://xyz.com)
-* Any Links you used as reference
-
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+* ![Lighthouse Score](images/Capture000.PNG)
 
 ### Reflections and Comments
 
