@@ -2,7 +2,7 @@
 
 ## About Me
 
-This is the about me project, 1st day. Adding some info about me, and 5 questions
+This is the about me project, 2nd day. Adding some info about me, added more prompts, an image, and some layout changes
 
 ### Author: Christopher Acosta
 
