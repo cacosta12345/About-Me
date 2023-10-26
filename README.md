@@ -16,6 +16,6 @@ This is the about me project, 2nd day. Adding some info about me, added more pro
 
 #### Reading Journal entry:
 
-* Today was more of a refresher for me. I have some prior experience with HTML and JavaScript but I am no where near a professional. It felt good to come back and touch up on skills that I haven't used in a while. Web design was never one of my strengths so I definitely need more CSS practice to make my pages prettier. I did notice that including some of the files provided like the .eslint.json file, messed with my code a little bit. I guess it has some restrictions that I'm not used to seeing. For example, writing functions in my js file and then trying to invoke them in my index file lead to some errors. Other than that, the assignment went pretty smooth.
+* Today was tougher than the last day. I'm having some CSS troubles. I'm not having much difficulty with the prompts and alerts but web designing with CSS is hard for me.
 
 * External Resources: ChatGPT for the 7th prompt. It helped me write code to alert users on remaining attempts before the correct answers prompt if all attempts were used.
