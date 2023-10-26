@@ -10,7 +10,7 @@ This is the about me project, 1st day. Adding some info about me, and 5 question
 
 ### Lighthouse Accessibility Report Score
 
-  ![Lighthouse Score](images/Capture000.PNG)
+  ![Lighthouse Score](images/Capture222.PNG)
 
 ### Reflections and Comments
 
