@@ -6,31 +6,56 @@ let user = prompt('What is your name?');
 
 alert(`Welcome to my site ${user}!`);
 
-let birthPlace = prompt('Chris was born in Arizona (Y/N)');
 
-let normBirthPlace = birthPlace.toLowerCase();
 
-if (normBirthPlace.startsWith('y')) {
-  alert('Nope! Check my About Me for the answer!');
-} else if (normBirthPlace.startsWith('n')){
-  alert('Correct!, I was born in California!')
-  rightAnswers++;
-} else {
-  alert('Please type yes or no');
+
+function checkYesNo(question, correctAnswer){
+  let userAnswer = prompt(question);
+  let normalilzedAnswer = userAnswer.toLowerCase();
+
+  if (normalilzedAnswer.startsWith('y') && correctAnswer === 'yes'){
+    return true;
+  } else if (normalilzedAnswer.startsWith('n')&& correctAnswer === 'no'){
+    return true;
+  } else {
+    alert('Sorry, that was incorrect');
+    return false;
+  }
 }
+
+if (checkYesNo(`Was Chris born in Arizona`, `no`)){
+  alert(`Correct! I was born in California!`);
+  rightAnswers++;
+}
+
+
+// let birthPlace = prompt('Chris was born in Arizona (Y/N)');
+
+// let normBirthPlace = birthPlace.toLowerCase();
+
+// if (normBirthPlace.startsWith('y')) {
+//   alert('Nope! Check my About Me for the answer!');
+// } else if (normBirthPlace.startsWith('n')){
+//   alert('Correct!, I was born in California!');
+//   rightAnswers++;
+// } else {
+//   alert('Please type yes or no');
+// }
+
 
 let service = prompt('Chris served in the Marine Corps (Y/N)');
 
 let normService = service.toLowerCase();
 
 if (normService.startsWith('y')){
-  alert('Negative, Chris is no crayon muncher. Check the About Me for the right answer!');
+  alert('Negative, Chris is no crayon muncher.');
 } else if (normService.startsWith('n')){
   alert('Roger Roger, I was in the Army');
   rightAnswers++;
 } else {
   alert('Please type yes or no');
 }
+
 
 let work = prompt('Chris worked in Washington as a Habitat Conservation worker (Y/N)');
 
@@ -45,6 +70,7 @@ if (normWork.startsWith('y')){
   alert('Please type yes or no');
 }
 
+
 let pet = prompt('Chris has a dog named Champ Y/N');
 
 let normPet = pet.toLowerCase();
@@ -57,6 +83,7 @@ if (normPet.startsWith('y')){
 } else {
   alert('Please type yes or no');
 }
+
 
 let home = prompt('Chris currently lives in California (Y/N)');
 
@@ -71,6 +98,7 @@ if (normHome.startsWith('y')){
 } else {
   alert('Please type yes or no');
 }
+
 
 for (let i = 0; i < 5; i++) {
   let guess = prompt('How old am I?');
@@ -88,6 +116,7 @@ for (let i = 0; i < 5; i++) {
     break;
   }
 }
+
 
 let possibleColors = ['green','blue', 'red'];
 
@@ -109,7 +138,12 @@ while (attempts > 0) {
     }
   }
 }
+
+
 alert(`You got ${rightAnswers} correct!`);
+
+
+
 
 //ChatGPT helped me write the possible colors code!
 //
