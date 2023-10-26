@@ -2,8 +2,9 @@
 
 let rightAnswers = 0;
 
-let user = prompt('What is your name?');
 
+
+let user = prompt('What is your name?');
 alert(`Welcome to my site ${user}!`);
 
 
@@ -23,8 +24,8 @@ function checkYesNo(question, correctAnswer){
   }
 }
 
-if (checkYesNo(`Was Chris born in Arizona`, `no`)){
-  alert(`Correct! I was born in California!`);
+if (checkYesNo('Was Chris born in Arizona', 'no')){
+  alert('Correct! I was born in California!');
   rightAnswers++;
 }
 
