@@ -3,20 +3,22 @@ ul {
   list-style-type: square;
 }
 
-ol {
-  list-style-type: upper-roman ;
+img {
+  margin-left: 10%;
+  width: 80%;
 }
+
 body {
   background: #ece5e5;
 }
 
 header {
-  background-color: aqua;
+  background-color: rgb(130, 133, 133);
   padding: 15px;
   text-align: center;
   border: brown;
   border-style: ridge;
-  border-width: 3px;
+  border-width: 1px;
 }
 
 header h1 {
@@ -29,12 +31,19 @@ h2 {
 
 p {
   margin: 10px 0px;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 8px;
+}
+
+h3 {
+  font-weight: bold;
+  margin-bottom: 4px;
+  border-bottom: double;
 }
 
 main {
@@ -51,10 +60,10 @@ main p {
 }
 
 footer {
-  background-color: aqua;
+  background-color: rgb(186, 189, 189);
   text-align: center;
   border: brown;
-  border-width: 3px;
+  border-width: 1px;
   border-style: ridge;
   font-size: 16pt;
   padding: 10px;
