@@ -1,3 +1,11 @@
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman ;
+}
 body {
   background: #ece5e5;
 }
@@ -15,6 +23,10 @@ header h1 {
   font-size: 28pt;
 }
 
+h2 {
+  text-align: center;
+}
+
 p {
   margin: 10px 0px;
 }
@@ -26,7 +38,7 @@ h2 {
 }
 
 main {
-  background-color: aqua;
+
   border: brown;
   border-style: ridge;
   border-width: 3px;
@@ -46,4 +58,20 @@ footer {
   border-style: ridge;
   font-size: 16pt;
   padding: 10px;
+}
+
+section {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+section div.container {
+  margin: auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+section div.list {
+  float: left;
+  width: 50%;
 }
