@@ -1,8 +1,8 @@
-# LAB - 2
+# LAB - 4
 
 ## About Me
 
-This is the about me project, 2nd day. Adding some info about me, added more prompts, an image, and some layout changes
+This is the about me project, 3rd day. Added functions to js file along with my partner Kyle Aleman.
 
 ### Author: Christopher Acosta
 
@@ -10,12 +10,12 @@ This is the about me project, 2nd day. Adding some info about me, added more pro
 
 ### Lighthouse Accessibility Report Score
 
-  ![Lighthouse Score](images/Capture222.PNG)
+  ![Lighthouse Score](images/Capture00001.PNG)
 
 ### Reflections and Comments
 
 #### Reading Journal entry:
 
-* Today was tougher than the last day. I'm having some CSS troubles. I'm not having much difficulty with the prompts and alerts but web designing with CSS is hard for me.
+* Today was pretty good. It was my first introduction to partner coding. The process to do pull requests went good. I could definetely see merge conflicts be a pain, thanfully we didn't run into that. I would like to learn how to resolve merge conflicts and more on those kind of problems in case I ever run into that. The coding functions went good, no troubles.
 
-* External Resources: ChatGPT for the 7th prompt. It helped me write code to alert users on remaining attempts before the correct answers prompt if all attempts were used.
+* External Resources: My brother actually helped me come up with the function for the first 5 y/n questions that works for all of them. It made the js file a lot cleaner.

@@ -56,8 +56,11 @@ function checkAge(){
       rightAnswers++;
       break;
     }
-    else if (guess !== 30 && i < 4){
-      alert('Incorrect, please try again');
+    else if (guess < 30){
+      alert('Too low, try again');
+    }
+    else if (guess > 30){
+      alert('Too high, try again');
     }
     if (i === 3){
       alert('The correct answer is 30!');

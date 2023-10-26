@@ -3,6 +3,7 @@ ul {
   list-style-type: square;
 }
 
+
 img {
   margin-left: 10%;
   width: 80%;
@@ -83,4 +84,8 @@ section div.container {
 section div.list {
   float: left;
   width: 50%;
+}
+
+footer a {
+  padding-left: 50px;
 }
