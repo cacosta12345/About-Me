@@ -15,10 +15,7 @@ function checkYesNo(question, correctAnswer){
   let userAnswer = prompt(question);
   let normalilzedAnswer = userAnswer.toLowerCase();
 
-  if (normalilzedAnswer.startsWith('y') && correctAnswer === 'yes'){
-    rightAnswers++;
-    return true;
-  } else if (normalilzedAnswer.startsWith('n')&& correctAnswer === 'no'){
+  if ((normalilzedAnswer.startsWith('y') && correctAnswer === 'yes')||(normalilzedAnswer.startsWith('n')&& correctAnswer === 'no')){
     rightAnswers++;
     return true;
   } else {
@@ -32,7 +29,7 @@ if (checkYesNo('Was Chris born in Arizona', 'no')){
 }
 
 if (checkYesNo('Chris served in the Marine Corps','no')){
-  alert('Correct!');
+  alert('Correct! I served in the Army!');
 }
 
 if (checkYesNo('Chris worked in Washington as a Habitat Conservation worker','yes')){
@@ -44,7 +41,7 @@ if (checkYesNo('Chris has a dog named Champ','yes')){
 }
 
 if (checkYesNo('Chris currently lives in California','yes')){
-  alert('Correct');
+  alert('Correct!');
 }
 
 function checkAge(){

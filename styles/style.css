@@ -1,6 +1,18 @@
 
 ul {
   list-style-type: square;
+  padding-left: 15px;
+}
+
+ol {
+
+  list-style-type: decimal;
+  padding-left: 15px;
+}
+
+.test {
+  list-style-type: square;
+
 }
 
 
@@ -88,4 +100,5 @@ section div.list {
 
 footer a {
   padding-left: 50px;
+
 }

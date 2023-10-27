@@ -1,8 +1,8 @@
-# LAB - 4
+# LAB - 5b
 
 ## About Me
 
-This is the about me project, 3rd day. Added functions to js file along with my partner Kyle Aleman.
+This is the about me project, last day. Finished the rest of the CSS issues.
 
 ### Author: Christopher Acosta
 
@@ -10,12 +10,16 @@ This is the about me project, 3rd day. Added functions to js file along with my 
 
 ### Lighthouse Accessibility Report Score
 
-  ![Lighthouse Score](images/Capture00001.PNG)
+* Lighthouse score for Lab 5!
+
+  ![Lighthouse Score](images/lighthouselab5.PNG)
 
 ### Reflections and Comments
 
 #### Reading Journal entry:
 
-* Today was pretty good. It was my first introduction to partner coding. The process to do pull requests went good. I could definetely see merge conflicts be a pain, thanfully we didn't run into that. I would like to learn how to resolve merge conflicts and more on those kind of problems in case I ever run into that. The coding functions went good, no troubles.
+* The lab went better today. I was still having some issues with CSS but a TA helped me straighten them out. The bullet points for my ul were getting messed up by the parent container with overflow hidden. I noticed that the reset css stylesheet was the reason my ol weren't numbered by default and putting a type on them in the index.html wasn't fixing it so I gave it a list-style-type in my css stylesheet to fix it. It is now decently presentable.
 
-* External Resources: My brother actually helped me come up with the function for the first 5 y/n questions that works for all of them. It made the js file a lot cleaner.
+#### Notes
+
+* I still have a lot of practicing to do with CSS!
